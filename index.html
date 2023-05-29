@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generador de Contrasenas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Generador de Contrasenas</h1>
+  <div class="container">
+    <label for="length">Longitud de la Contrasena:</label>
+    <input type="number" id="length" min="4" max="20" value="8">
+    <button onclick="generatePassword()">Generar Contrasena</button>
+    <input type="text" id="password" readonly>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
